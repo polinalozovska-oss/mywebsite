@@ -1,0 +1,103 @@
+BODY
+{  position: relative;
+    margin: auto;
+    width: 400px;
+    background:blue;
+
+ 
+}
+h1
+{font-family: 'Pacifico', cursive;
+font-size:56px; 
+font-style: bold;
+ 
+ 
+color: yellow;
+text-align: center;
+letter-spacing: 3pt; 
+}
+p
+{font-family: Arial; 
+font-size: 14pt; 
+font-style: italic;
+color: #b5eb83;
+text-align: justify;
+text-indent: 12pt;
+}
+img
+{
+ position:relative;
+width:300px; 
+height:300px;
+ 
+ 
+border-width: 20px;
+border-style: solid; 
+border-color: red;
+}
+img:hover
+{opacity: 0.5;}
+
+a
+{  
+   display:inline-block;  
+   height:40px;
+   width:150px;  
+   font-family:impact;
+   font-size:14pt;
+   letter-spacing:3px;
+   background:#717b7b;
+   color:#ffffff;
+   text-decoration:none;
+   text-align:center;
+}
+a:hover
+{
+   background:#c7cfd7;
+   color:#cc0000;
+}
+.menu a {
+    display: block;      /* кожне посилання стає блоком = в стовпчик */
+    margin-bottom: 10px; /* щоб між пунктами був відступ */
+}
+.main
+{
+    position:relative;
+    background:#edcdcd;    
+    width:800px;
+    margin:0px auto;
+    box-shadow:0px 0px 30px black;
+}
+.top
+{  
+   margin: auto;  
+   padding: 10px 10px 10px 10px;
+}
+.conteiner
+{
+    display: flex;      /* Вмикаємо flex-контейнер */
+    flex-direction: row; /* Розташування зліва направо (за замовчуванням) */
+    background-color: #c7cfd7;
+    padding: 10px 10px 10px 10px;
+}
+.menu
+{  
+    width:150px;  
+    margin: 20px 20px 20px 20px;    
+}
+.content
+{
+    flex: 1;            /* Займає весь доступний простір */
+    width: 400px;    
+    background:#c1b1b1;    
+    padding: 10px 10px 10px 10px;  
+}
+.footer
+{  
+   margin: auto;  
+   padding: 10px 10px 10px 10px;  
+}
+
+
+
+
